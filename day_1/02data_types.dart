@@ -1,4 +1,5 @@
-// data types in dart
+// data types in dart\
+// basic data types in dartt
 void main() {
   String name = "Nishan Pradhan"; // string datatypes
   String address = "Nepal"; //string data types
@@ -17,6 +18,5 @@ void main() {
     'c#'
   ]; //list data types
 
-  print(
-      "Name: ${name}.\nAddress: ${address}.\nSalary: ${salary}.\nMarried Status: ${isMarried}.DOB: ${date}"); //give the output result stored in variable
+  print("Name: ${name}.\nAddress: ${address}.\nSalary: ${salary}.\nMarried Status: ${isMarried}.DOB: ${date}"); //give the output result stored in variable
 }
