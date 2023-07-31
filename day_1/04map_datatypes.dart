@@ -17,6 +17,11 @@
 
    *****subject.add("Digital_Logic");*/
 
-void main(){
-  // Map<String> double _
+void main(){ // creating a list using map datatypes
+  Map<String, double> _CourseList={ // store the string as well it int value
+    "C": 600,
+    "C++": 400,
+    "python" :500,
+  };
+  print(_CourseList["C"]); // disply the output of C 
 }

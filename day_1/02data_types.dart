@@ -1,5 +1,7 @@
 // data types in dart\
 // basic data types in dartt
+// ignore_for_file: unused_local_variable
+
 void main() {
   String name = "Nishan Pradhan"; // string datatypes
   String address = "Nepal"; //string data types
