@@ -11,8 +11,8 @@ void main() {
 // stdin mean taking the data from user
   print("Enter your Address: ");
   String? add = stdin.readLineSync();
-  int age = int.parse(stdin
-      .readLineSync()!); //generally data xai.. string samjinxa but to get int value we have to convert it which is converted using int.prase ang store the value in age variable.identifier
+  print("Enter your age: ");
+  int age = int.parse(stdin.readLineSync()!); //generally data xai.. string samjinxa but to get int value we have to convert it which is converted using int.prase ang store the value in age variable.identifier
 
   print("\nName : $name");
   print("Address: $add");
