@@ -8,7 +8,12 @@ void main() {
   // name.removeLast(); remove last item
   // name.removeAt(3); remove thee selected index item
 
-  for (var item in name) {
-    print("Name is $item");
-  }
+  // for (var item in name) {
+  //   print("Name is $item");
+  // }
+
+  // another eay to use foreach loop
+  name.forEach((element) {
+    print("Name is $element");
+  });
 }
