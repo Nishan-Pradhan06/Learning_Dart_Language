@@ -4,12 +4,12 @@
 import 'dart:io';
 
 void main(List<String> args) {
-  // int name = 1;
-  print("enter name");
-  String? name = stdin.readLineSync();
+  int name = 1;
+  // print("enter name");
+  // String? name = stdin.readLineSync();
 
   do {
-    print(name);
+    print("$name");
     name++;
   } while (name <= 10);
 }
